@@ -17,7 +17,6 @@ header {
   height: 44px;
   top: 0;
   font-family: 'IBMPlexMono';
-  /* padding 10px x 10px */
   padding: 0.625rem 0.625rem;
   z-index: 2;
 }
@@ -73,7 +72,6 @@ header nav {
 }
 
 header nav .menu span {
-  /* position: absolute; */
   top: 0.3rem;
 }
 
@@ -174,7 +172,6 @@ header nav .menu input[type="checkbox"]:checked ~ ul {
 
 @media screen and (min-width: 1200px) {
   header nav .menu input[type="checkbox"]:checked ~ ul {
-    visibility: none;
     height: 0;
   }
 }
@@ -885,7 +882,6 @@ footer {
 footer p {
   display: block;
   text-align: center;
-  /*margin: 24px 46px 0px 47px;*/
   margin: 24px auto 0px auto;
   font-size: 1rem;
   letter-spacing: 0.04rem;
